@@ -1,0 +1,205 @@
+<!DOCTYPE html> <!--Donne le type de document-->       
+<html>  <!--Marque le début du document html-->
+
+<head>
+    <title>MusiCoach Homepage</title> <!---Ajoute un titre à la page afin de faciliter la navigation de l'utilisateur-->
+
+    <style>
+        .section {
+            color:#3a3a3a ;
+            margin: 20px ;
+            padding-left : 50px ;
+        }
+
+        .theme-grid {
+            display : grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .theme-btn {
+            background-color:#F4D081;
+            border:3px solid;
+            border-radius: 10px;
+            padding: 20px;
+            color :#D89500;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        
+        }
+
+        .link-theme {
+            color : #D89500 ;
+            text-decoration:None ;
+            font-weight: bold;
+            font-size: x-large;
+        }
+
+        .link-theme:hover {
+            color:#3a3a3a;
+            text-decoration:none;
+        }
+
+        .side-barre {
+            background-color : #a8c686;
+            width : 130 px;
+            top : 0;
+            left : 0;
+            position : fixed;
+            color : #3a3a3a;
+            padding : 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: medium;
+        }
+
+        .main-content {
+            margin-left: 100px;
+        }
+
+        .barre-image {
+            width : 70px;
+            height : 70px;
+            border: 3px solid;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        
+    </style>
+</head>
+
+<body style="background-color : #f3f2ea">
+
+    <button type="button" onclick="document.getElementById('barre_latérale').style.display='block'">Menu</button>
+
+<div id="barre_latérale" style="display:none" class="side-barre">
+    <div class="barre-image">
+        <img src="home-btn.png" alt="HomePage">
+    </div>
+    <p>Level up</p>
+    <div class="barre-image">
+        <img src="Challenge-btn.png" alt="ChallengePage">
+    </div>
+    <p>Challenges</p>
+    <div class="barre-image">
+        <img src="Composition-btn.png" alt="CompositionPage">
+    </div>
+    <p>Invent !</p>
+    <div class="barre-image">
+        <img src="records-btn.png" alt="BibliothèquePage">
+    </div>
+    <p>MyRecords</p>
+    <div class="barre-image">
+        <img src="profil-btn.png" alt="ProfilPage">
+    </div>
+    <p>MyProfile</p>
+</div>
+<div class="main-content">
+<h1 style="color:#3a3a3a;text-align:center">Level up</h1>
+<p style="text-align:center"><strong>Progresse en jouant tes premiers morceaux</strong></p>
+
+<div class="theme-grid">
+    <div class="theme-btn">
+            <a href="#C1" class="link-theme">Bases</a>
+    </div>
+    <div class="theme-btn">
+        <a href="#C2" class="link-theme">Premiers accords</a>
+    </div>
+    <div class="theme-btn">
+        <a href="#C3" class="link-theme">Rythme</a>
+    </div>
+    <div class="theme-btn">
+        <a href="#C4" class="link-theme">Premiers morceaux</a>
+    </div>
+    <div class="theme-btn">
+        <a href="#C5" class="link-theme">Bases harmoniques</a>
+    </div>
+    <div class="theme-btn">
+        <a href="#C6" class="link-theme">Expression et nuance</a>
+    </div>
+    <div class="theme-btn">
+        <a href="#C7" class="link-theme">Nouveau style</a>
+    </div>
+    <div class="theme-btn">
+        <a href="#C8" class="link-theme">Let's play</a>
+    </div>
+</div>
+
+<div class="section">
+    <h1 id="C1">Bases</h1>
+</div>
+    <img src="Portée cliquable.png" alt="Portée" usemap="#workmap">
+    <map name="workmap">
+        <area shape="cercle" coords="433, 124, 20" href="Clé de sol.png">
+        <area shape="cercle" coords="696, 229, 20" href="Clé de fa.png">
+        <area shape="cercle" coords="1047, 177, 20" href="Clé de ut.png">
+    </map>
+<div class="section">
+    <h1 id="C2">Premiers accords</h1>
+</div>
+    <img src="Portée cliquable.png" alt="Portée" usemap="#workmap">
+    <map name="workmap">
+        <area shape="cercle" coords="433, 124, 20" href="Clé de sol.png">
+        <area shape="cercle" coords="696, 229, 20" href="Clé de fa.png">
+        <area shape="cercle" coords="1047, 177, 20" href="Clé de ut.png">
+    </map>
+<div class="section">
+    <h1 id="C3">Rythme</h1>
+</div>
+    <img src="Portée cliquable.png" alt="Portée" usemap="#workmap">
+    <map name="workmap">
+        <area shape="cercle" coords="433, 124, 20" href="Clé de sol.png">
+        <area shape="cercle" coords="696, 229, 20" href="Clé de fa.png">
+        <area shape="cercle" coords="1047, 177, 20" href="Clé de ut.png">
+    </map>
+<div class="section">
+    <h1 id="C4">Premiers morceaux</h1>
+</div>
+    <img src="Portée cliquable.png" alt="Portée" usemap="#workmap">
+    <map name="workmap">
+        <area shape="cercle" coords="433, 124, 20" href="Clé de sol.png">
+        <area shape="cercle" coords="696, 229, 20" href="Clé de fa.png">
+        <area shape="cercle" coords="1047, 177, 20" href="Clé de ut.png">
+    </map>
+    <div class="section">
+    <h1 id="C5">Bases harmoniques</h1>
+</div>
+    <img src="Portée cliquable.png" alt="Portée" usemap="#workmap">
+    <map name="workmap">
+        <area shape="cercle" coords="433, 124, 20" href="Clé de sol.png">
+        <area shape="cercle" coords="696, 229, 20" href="Clé de fa.png">
+        <area shape="cercle" coords="1047, 177, 20" href="Clé de ut.png">
+    </map>
+<div class="section">
+    <h1 id="C6">Expression et nuances</h1>
+</div>
+    <img src="Portée cliquable.png" alt="Portée" usemap="#workmap">
+    <map name="workmap">
+        <area shape="cercle" coords="433, 124, 20" href="Clé de sol.png">
+        <area shape="cercle" coords="696, 229, 20" href="Clé de fa.png">
+        <area shape="cercle" coords="1047, 177, 20" href="Clé de ut.png">
+    </map>
+<div class="section">
+    <h1 id="C7">Nouveaux styles</h1>
+</div>
+    <img src="Portée cliquable.png" alt="Portée" usemap="#workmap">
+    <map name="workmap">
+        <area shape="cercle" coords="433, 124, 20" href="Clé de sol.png">
+        <area shape="cercle" coords="696, 229, 20" href="Clé de fa.png">
+        <area shape="cercle" coords="1047, 177, 20" href="Clé de ut.png">
+    </map>
+    <div class="section">
+    <h1 id="C8">Let's play</h1>
+</div>
+    <img src="Portée cliquable.png" alt="Portée" usemap="#workmap">
+    <map name="workmap">
+        <area shape="cercle" coords="433, 124, 20" href="Clé de sol.png">
+        <area shape="cercle" coords="696, 229, 20" href="Clé de fa.png">
+        <area shape="cercle" coords="1047, 177, 20" href="Clé de ut.png">
+    </map>
+</div>
+</body>
+</html>
